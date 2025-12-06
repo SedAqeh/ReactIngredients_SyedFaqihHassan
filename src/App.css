@@ -1,0 +1,35 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1em;
+  padding: 1em;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1em;
+
+  .ingredient-item {
+    display: flex;
+    gap: 1em;
+
+    .ingredient-item-amount {
+      width: 5em;
+    }
+    .ingredient-item-unit {
+      width: 5em;
+    }
+  }
+}
+
+.title-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1em;
+}
