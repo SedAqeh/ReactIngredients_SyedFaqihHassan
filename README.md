@@ -28,8 +28,6 @@ Currently, two official plugins are available:
    npm run dev
    ```
 
-   🔗 Runs at **[http://localhost:4000](http://localhost:4000)**
-
 4. **Build for production**
 
    ```bash
